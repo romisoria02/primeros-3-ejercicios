@@ -1,10 +1,8 @@
 import React from 'react';
 
-const PrimerSaludo = () => {
+const PrimerSaludo = (props) => {
     return (
-        <div>
-            
-        </div>
+       <h1>Hello {props.codigoSaludo}</h1>
     );
 };
 
