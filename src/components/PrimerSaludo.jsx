@@ -1,8 +1,17 @@
-import React from 'react';
+import { useState } from "react";
 
 const PrimerSaludo = (props) => {
+    const [clave, setclave] = useState('');
+
+    const mostrar = () => {
+        setclave('(from changed state)')
+}
+
     return (
-       <h1>Hello {props.codigoSaludo}</h1>
+        <div>
+          <h1>Hello {props.codigoSaludo} {clave}</h1>
+    <button onClick={mostrar}>Mostrar Clave</button>
+    </div>  
     );
 };
 

@@ -1,6 +1,7 @@
 import PrimerSaludo from "./components/PrimerSaludo";
 
-// 2-Modificar el componente anterior y enviar mediante props el valor “My friend” de manera que el mensaje quede de la siguiente forma
+// 3-Modificar el programa anterior agregando al componente un state con la clave msj: “(from changed state)”, además agregar un botón al presionar este botón (onClick), el state de la clave msj se debe mostrar por pantalla 
+
 function App() {
   const saludo = 'my friend'
   
